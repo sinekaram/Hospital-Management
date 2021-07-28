@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HMS HOME</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+   
+		   background-repeat:no-repeat;
+		   background-position:center;
+			width:100%;
+			height:100%;
+}
+
+.dropdown {
+               float: left;
+               overflow: hidden;
+            }
+
+        .dropdown .dropbtn {
+               font-size: 15px;  
+               border: none;
+               outline: none;
+               color: black;
+               padding: 14px 16px;
+               background-color: inherit;
+               font-family: sans-serif;
+               margin: 0;
+            }
+
+         .dropdown:hover .dropbtn {
+               background:white;
+			   color: black;
+             }
+
+         .dropdown-content {
+              display: none;
+              position: absolute;
+              background-color:pink;
+              min-width: 160px;
+              box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+              z-index: 1;
+            }
+
+        .dropdown-content a {
+             float: none;
+             color: #009879;
+             padding: 12px 16px;
+             text-decoration: none;
+             display: block;
+             text-align: left;
+            }
+
+        .dropdown-content a:hover {
+            background:#009879;
+			color: #fff;
+			transition: 0.5s;
+          }
+
+        .dropdown:hover .dropdown-content {
+             display: block;
+          }
+	   
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color:rgb(206, 197, 67);
+;
+  overflow-x: hidden;
+}
+
+
+/* Side navigation links */
+.sidenav a {
+  color:black;
+  padding: 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color on hover */
+.sidenav a:hover {
+  background-color:white;
+  color: rgb(15, 15, 119);
+}
+.header {
+  background-color: rgb(177, 190, 54);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color:black;
+}
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 20px;
+  color: rgb(15, 71, 15);
+}
+</style>
+</head>
+<body>
+
+<div class="sidenav">
+
+		<a href="adminmyhos.html">ADMIN</a>
+		<a href="doctorlogin.html">DOCTOR</a>
+		<a href="patientlogin.html">PATIENT</a>
+		<a href="contactus.html">CONTACT US</a>
+		<a href="aboutus.html">ABOUT US</a>
+		 <li>
+							    <div class="dropdown">
+                                    <button class="dropbtn">DEPARTMENT <i class="fa fa-caret-down"></i></button>
+                                    <div class="dropdown-content">
+                                        <a href="d1.html">Dept-Dermatology</a>
+                                        <a href="d2.html">Dept-Orthopedic</a>
+                                        <a href="d3.html">Dept-Neurology</a>
+                                        <a href="d4.html">Dept-Physiotheraphy</a>
+                                        <a href="d5.html">Dept-Cardiology</a>
+                                        <a href="d6.html">Dept-Emergency</a>
+                                    </div>
+							    </div> 
+							</li>
+</div>
+<div class="header">
+ <p>
+  <h2>  
+    <img src="1.jpeg" style="float:right;width:10%;height:10%;" >
+    KSN HOSPITAL
+  </h2>
+  </p>
+</div>
+<div class="content">
+    <p style="font-weight:bold;font-family:sofia;font-size:30px;color:rgb(3, 3, 104);">KSN HOSPITAL is a Federally Qualified Health Center providing high-quality healthcare services.</p>
+    <marquee width="40%" direction="up" height="30%">
+		    We take a multifaceted approach to health care that allows us to provide superior care, across multiple disciplines, to treat the whole person. Our services include family medicine, dentistry, behavioral health, and a full-service pharmacy, all under one roof.
+  </marquee>
+
+            
+</div>
+
+</body>
+</html>
